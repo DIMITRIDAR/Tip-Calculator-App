@@ -84,3 +84,14 @@ body {
   font-size: 2.4rem;
   font-weight: 700;
 }
+
+.select-tip h2 {
+  color: #5e7a7d;
+  font-size: 1.6rem;
+  font-weight: 700;
+}
+
+.tip-hover:hover {
+  background: #26c2ae;
+  color: #00474b;
+}
