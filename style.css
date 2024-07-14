@@ -163,3 +163,12 @@ body {
   font-weight: 700;
   font-family: Space Mono;
 }
+
+.container-2 {
+  display: flex;
+  flex-direction: column;
+  background: #00474b;
+  width: 32.7rem;
+  border-radius: 1.5rem;
+  margin: 2.4rem;
+}
