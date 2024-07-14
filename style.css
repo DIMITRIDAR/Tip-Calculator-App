@@ -127,3 +127,11 @@ body {
   flex-direction: column;
   justify-content: center;
 }
+
+.input h1 {
+  color: #5e7a7d;
+  text-align: start;
+  font-size: 1.6rem;
+  font-weight: 700;
+  margin-left: -7rem;
+}
