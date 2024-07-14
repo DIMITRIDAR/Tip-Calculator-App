@@ -172,3 +172,10 @@ body {
   border-radius: 1.5rem;
   margin: 2.4rem;
 }
+
+.tip-amount {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 3rem;
+}
