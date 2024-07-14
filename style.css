@@ -24,7 +24,7 @@ body {
   width: 37.5rem;
   background: #fff;
   box-shadow: 0px 32px 43px 0px rgba(79, 166, 175, 0.2);
-  border-radius: 25px 25px 0px 0px;
+  border-radius: 2.5rem 2.5rem 0 0;
   margin-top: 4.1rem;
 }
 
@@ -252,4 +252,14 @@ body {
 }
 
 @media only screen and (min-width: 90rem) {
+  .header {
+    margin-top: 16.3rem;
+  }
+
+  .container {
+    width: 92rem;
+    box-shadow: 0px 32px 43px 0px rgba(79, 166, 175, 0.2);
+    border-radius: 2.5rem 2.5rem 2.5rem 2.5rem;
+    margin-top: 8.8rem;
+  }
 }
