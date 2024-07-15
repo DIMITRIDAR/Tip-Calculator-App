@@ -282,4 +282,13 @@ body {
   .tip-hover {
     width: 11.7rem;
   }
+
+  #custom-tip {
+    width: 11.8rem;
+    padding-right: 1rem;
+  }
+
+  .input {
+    margin-top: 4rem;
+  }
 }
