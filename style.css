@@ -270,6 +270,16 @@ body {
   }
 
   .select-tip {
-    margin-top: 3.2rem;
+    margin-top: 4rem;
+  }
+
+  .select-btn {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.4rem;
+    margin-top: 1.6rem;
+  }
+
+  .tip-hover {
+    width: 11.7rem;
   }
 }
