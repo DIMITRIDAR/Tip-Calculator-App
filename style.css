@@ -181,6 +181,7 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  gap: 2.5rem;
 }
 
 .total h3 {
@@ -201,8 +202,7 @@ body {
   color: #26c2ae;
   font-weight: 700;
   letter-spacing: -0.0667rem;
-  margin-top: 1rem;
-  margin-top: -5rem;
+  margin-top: -6rem;
 }
 
 #reset {
