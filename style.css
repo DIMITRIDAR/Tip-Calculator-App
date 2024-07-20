@@ -220,4 +220,7 @@ body {
 }
 
 @media only screen and (min-width: 90rem) {
+  body {
+    margin-top: 16.3rem;
+  }
 }
