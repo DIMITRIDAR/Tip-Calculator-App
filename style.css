@@ -223,4 +223,10 @@ body {
   body {
     margin-top: 16.3rem;
   }
+
+  .container {
+    width: 50%;
+    border-radius: 2.5rem 2.5rem 2.5rem 2.5rem;
+    margin-top: 8.8rem;
+  }
 }
