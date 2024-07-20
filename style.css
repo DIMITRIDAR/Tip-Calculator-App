@@ -239,13 +239,13 @@ body {
   }
 
   #bill[type="number"] {
-    width: 50%;
+    width: 55%;
     padding-right: 1rem;
   }
 
   .select-tip {
     margin-top: 4rem;
-    margin-right: 28rem;
+    margin-right: 30rem;
   }
 
   .select-btn {
@@ -256,11 +256,11 @@ body {
   }
 
   .tip-hover {
-    width: 11.7rem;
+    width: 11rem;
   }
 
   #custom-tip {
-    width: 11.7rem;
-    padding-right: 1rem;
+    width: 11rem;
+    padding-right: 0;
   }
 }
