@@ -229,4 +229,12 @@ body {
     border-radius: 2.5rem 2.5rem 2.5rem 2.5rem;
     margin-top: 8.8rem;
   }
+
+  .container-1 {
+    padding: 3.2rem;
+  }
+
+  .bill {
+    width: 50%;
+  }
 }
