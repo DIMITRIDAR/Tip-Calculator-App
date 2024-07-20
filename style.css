@@ -242,4 +242,15 @@ body {
     width: 50%;
     padding-right: 1rem;
   }
+
+  .select-tip {
+    margin-top: 4rem;
+  }
+
+  .select-btn {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2.7rem;
+    margin-top: 1.6rem;
+  }
 }
