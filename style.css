@@ -245,6 +245,7 @@ body {
 
   .select-tip {
     margin-top: 4rem;
+    margin-right: 28rem;
   }
 
   .select-btn {
@@ -252,5 +253,14 @@ body {
     grid-template-columns: repeat(3, 1fr);
     gap: 2.7rem;
     margin-top: 1.6rem;
+  }
+
+  .tip-hover {
+    width: 11.7rem;
+  }
+
+  #custom-tip {
+    width: 11.7rem;
+    padding-right: 1rem;
   }
 }
