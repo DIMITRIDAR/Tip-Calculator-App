@@ -235,6 +235,11 @@ body {
   }
 
   .bill {
+    width: 100%;
+  }
+
+  #bill[type="number"] {
     width: 50%;
+    padding-right: 1rem;
   }
 }
