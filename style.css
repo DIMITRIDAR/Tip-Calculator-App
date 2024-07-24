@@ -264,12 +264,7 @@ body {
     padding-right: 0;
   }
 
-  /* es gasastilia
-  #custom-tip::placeholder {
-  color: #547878;
-  text-align: right;
-  font-size: 2.4rem;
-  font-weight: 700;
-  font-family: Space Mono;
-} */
+  .people {
+    width: 55%;
+  }
 }
