@@ -276,4 +276,9 @@ body {
     margin-left: -31rem;
     margin-right: 1rem;
   }
+
+  .total h2 {
+    font-size: 4.8rem;
+    letter-spacing: -0.1rem;
+  }
 }
