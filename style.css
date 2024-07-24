@@ -287,4 +287,8 @@ body {
     letter-spacing: -0.1rem;
     transform: translateY(-5rem);
   }
+
+  #reset:hover {
+    background: #9fe8df;
+  }
 }
