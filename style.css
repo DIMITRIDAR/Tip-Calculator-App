@@ -173,7 +173,7 @@ body {
   background: #00474b;
   width: 32.7rem;
   border-radius: 1.5rem;
-  margin: 2.4rem 2.4rem;
+  margin: auto;
   padding: 3.9rem 2.4rem 2.4rem;
 }
 
@@ -263,4 +263,13 @@ body {
     width: 11rem;
     padding-right: 0;
   }
+
+  /* es gasastilia
+  #custom-tip::placeholder {
+  color: #547878;
+  text-align: right;
+  font-size: 2.4rem;
+  font-weight: 700;
+  font-family: Space Mono;
+} */
 }
