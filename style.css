@@ -277,6 +277,7 @@ body {
   .container-2 {
     margin-left: -32rem;
     margin-right: 2rem;
+    transform: translateY(0);
   }
 
   .total {
