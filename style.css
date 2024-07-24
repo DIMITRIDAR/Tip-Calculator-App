@@ -273,10 +273,7 @@ body {
   }
 
   .container-2 {
-    background: #00474b;
-    width: 32.7rem;
-    border-radius: 1.5rem;
-    margin: auto;
-    padding: 3.9rem 2.4rem 2.4rem;
+    margin-left: -31rem;
+    margin-right: 1rem;
   }
 }
