@@ -1,51 +1,48 @@
-const billInput = document.getElementById("bill");
-const tipInputs = Array.from(document.getElementsByClassName("tip"));
-const peopleInput = document.getElementById("people");
-const resultTip = document.getElementById("result-tip");
-const resultTotal = document.getElementById("result-total");
-const resetButton = document.getElementById("reset");
-const customTipInput = document.getElementById("custom-tip");
+const billinput = document.getElementById("bill");
+const tipinputs = Array.from(document.getElementsByClassName("tip"));
+const peopleinput = document.getElementById("people");
+const resultip = document.getElementById("result-tip");
+const resulttotal = document.getElementById("result-total");
+const resetbutton = document.getElementById("reset");
+const customtipinput = document.getElementById("custom-tip");
 
-let billValue = 0;
-let tipValue = 0;
-let peopleValue = 0;
-billInput.addEventListener("input", (event) => {
-  billValue = Number(event.target.value);
+let billvalue = 0;
+let tipvalue = 0;
+let peoplevalue = 0;
+billinput.addEventListener("input", (event) => {
+  billvalue = Number(event.target.value);
   calculation();
 });
-
-tipInputs.forEach((button) => {
+tipinputs.forEach((button) => {
   button.addEventListener("click", (event) => {
-    tipValue = parseInt(event.target.innerText);
+    tipvalue = parseInt(event.target.innerText);
     calculation();
   });
 });
-
-peopleInput.addEventListener("input", (event) => {
-  peopleValue = Number(event.target.value);
+peopleinput.addEventListener("input", (event) => {
+  peoplevalue = Number(event.target.value);
   calculation();
 });
-
-customTipInput.adedEvenetListener("input", (event) => {
-  tipValue = parseInt(event.target.value);
+customtipinput.addEventListener("input", (event) => {
+  tipvalue = parseInt(event.target.value);
   calculation();
 });
 
 function calculation() {
-  if (peopleValue !== 0) {
-    let tipsValue = (billValue * (tipValue / 100)) / peopleValue;
-    let totalValue = billValue / peopleValue + tipsValue;
-    resultTip.innerText = `$${tipsValue.toFixed(2)}`;
-    resultTotal.innerText = `$${totalValue.toFixed(2)}`;
+  if (peoplevalue != 0) {
+    let tiprsultvalue = (billvalue * (tipvalue / 100)) / peoplevalue;
+    let totalvalue = billvalue / peoplevalue + tiprsultvalue;
+    resultip.innerText = `$${tiprsultvalue.toFixed(2)}`;
+    resulttotal.innerText = `$${totalvalue.toFixed(2)}`;
   } else {
-    resultTip.innerText = "$0.00";
-    resultTotal.innerText = "$0.00";
+    resultip.innerText = "$0.00";
+    resulttotal.innerText = "$0.00";
   }
 }
 
-resetButton.addEventListener("click", () => {
-  resultTip.innerText = "$0.00";
-  resultTotal.innerText = "$0.00";
-  billInput.value = "";
-  peopleInput.value = "";
+resetbutton.addEventListener("click", () => {
+  resultip.innerText = "$0.00";
+  resulttotal.innerText = "$0.00";
+  billinput.value = "";
+  peopleinput.value = "";
 });
