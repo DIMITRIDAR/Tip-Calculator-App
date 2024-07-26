@@ -184,7 +184,6 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  gap: 2.5rem;
 }
 
 .total h3 {
@@ -205,7 +204,6 @@ body {
   color: #26c2ae;
   font-weight: 700;
   letter-spacing: -0.0667rem;
-  margin-top: -6rem;
 }
 
 #reset {
@@ -268,14 +266,9 @@ body {
     padding-right: 0;
   }
 
-  .total {
-    gap: 5rem;
-  }
-
   .total h2 {
     font-size: 4.8rem;
     letter-spacing: -0.1rem;
-    transform: translateY(-5rem);
   }
 
   .container-2 {
