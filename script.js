@@ -41,3 +41,10 @@ function calculation() {
     resultTotal.innerText = "$0.00";
   }
 }
+
+resetButton.addEventListener("click", () => {
+  resultTip.innerText = "$0.00";
+  resultTotal.innerText = "$0.00";
+  billInput.value = "";
+  peopleInput.value = "";
+});
