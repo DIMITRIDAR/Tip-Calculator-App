@@ -29,3 +29,15 @@ customTipInput.addEventListener("input", (event) => {
   tipValue = parseIn(event.target.value);
   calculation();
 });
+
+function calculation() {
+  if (peopleValue !== 0) {
+    let tipsValue = (billValue * (tipValue / 100)) / peopleValue;
+    let totalValue = billValue / peopleValue + tipsValue;
+    resultTip.innerText = `$${tipsValue.toFixed(2)}`;
+    resultTotal.innerText = `$${totalValue.toFixed(2)}`;
+  } else {
+    resultTip.innerText = "$0.00";
+    resultTotal.innerText = "$0.00";
+  }
+}
